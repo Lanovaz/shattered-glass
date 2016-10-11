@@ -1,0 +1,19 @@
+{
+  "name": "shattered-glass",
+  "description": "Information Sharding for Universal Information Storage utilizing Universal Information Identifiers",
+  "version": "0.1.0",
+  "keywords": [],
+  "author": "Daniel Lanovaz",
+  "license": "",
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "aes-gcm-stream": "^2.1.0",
+    "debug": "^2.2.0",
+    "fibers": "^1.0.15",
+    "minimist": "^1.2.0",
+    "pngjs": "^3.0.0",
+    "webhdfs": "^1.1.0"
+  }
+}
