@@ -51,7 +51,7 @@ Information Sharding are unique to this ShatteredGlass specification:
     identity of any information shard at runtime. It is computationally
     intractable for an attacker to deduce shard relationships.
 
-4.  Shard Server simplicity; servers simply need t store shards by UII
+4.  Shard Server simplicity; servers simply need to store shards by UII
     and return shards by UII. All other processing is performed on
     the client.
 
