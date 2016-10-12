@@ -39,7 +39,7 @@ the following properties:
     analysis and traffic analysis.
 
 Information Sharding is built upon ideas from cryptography, erasure
-coding, and distributed computing. I believe five aspects of
+coding, distributed computing, and git. I believe five aspects of
 Information Sharding are unique to this ShatteredGlass specification:
 
 1.  The definition of “*Information Sharding*”.
@@ -105,12 +105,12 @@ References
 
 [4]: I adopted hash-based signatures because of their resistance to Quantum Computing attacks.
 
-[5]: https://www.torproject.org/
+[5]: See https://www.torproject.org/
 
 [6]: Node.js is the execution engine (https://nodejs.org)
 
-[7]: https://tails.boum.org/
+[7]: See https://tails.boum.org/
 
-[8]: https://inversepath.com/usbarmory
+[8]: See https://inversepath.com/usbarmory
 
-[9]: The system was tested on a local 2-drive installation of Hadoop (http://hadoop.apache.org/).
+[9]: The system was tested on a local 2-drive installation of Hadoop. See http://hadoop.apache.org/.
