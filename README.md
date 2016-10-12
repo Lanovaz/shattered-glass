@@ -13,28 +13,28 @@ Container*. No central authority is required to manage namespaces,
 information owners, and information sharing. *Information Sharding* has
 the following properties:
 
-1)  *Universal Information Identifiers* (UII, pronounced yōō'ē)
+1.  *Universal Information Identifiers* (UII, pronounced yōō'ē)
     provide unique information identity without the need for a central authority.
 
-2)  Information is shattered (sharded) into one or more *Shards*.
+2.  Information is shattered (sharded) into one or more *Shards*.
     Authenticated encryption ensures shard privacy and integrity.
 
-3)  *Information Dispersal Algorithms* (Erasure Coding [1]) are
+3.  *Information Dispersal Algorithms* (Erasure Coding [1]) are
     optionally used for data redundancy [2] that provides resistance to
     shard loss and enables *Information* *Horse Racing* and *Information
     Quorums*.
 
-4)  Cryptographic primitives are based on sponge functions, specifically
+4.  Cryptographic primitives are based on sponge functions, specifically
     the Keccak [3] family of sponge functions used for permutation-based
     hashing, message authentication, authenticated encryption, and
     hash-based signatures [4].
 
-5)  *Shard Servers* are unaware of shard contents, are unaware of shard
+5.  *Shard Servers* are unaware of shard contents, are unaware of shard
     interrelationships, and are unaware of shard ownership. No knowledge
     is obtained by analyzing the Shards stored on shard servers. Privacy
     and anonymity is maintained.
 
-6)  Information Sharding, when used in conjunction with anonymity
+6.  Information Sharding, when used in conjunction with anonymity
     networks such as the Tor network [5], is resistant to file-size
     analysis and traffic analysis.
 
