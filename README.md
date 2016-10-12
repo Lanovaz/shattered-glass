@@ -64,7 +64,7 @@ Information Sharding are unique to this ShatteredGlass specification:
 I have created a version of ShatteredGlass written entirely in
 Javascript [6]. This implies that ShatteredGlass can run on any
 client computer that supports web technology including Tails [7] and
-secure boot tokens such as the USB Armory from Inverse Path [8]).
+secure boot tokens such as the USB Armory from Inverse Path [8].
 
 The system can store shards either on a standard
 local file system, on a Hadoop [9] storage cluster, in an email
