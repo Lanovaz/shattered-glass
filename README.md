@@ -35,14 +35,14 @@ the following properties:
     and anonymity is maintained.
 
 6)  Information Sharding, when used in conjunction with anonymity
-    networks such as the Tor network [[5]], is resistant to file-size
+    networks such as the Tor network [5], is resistant to file-size
     analysis and traffic analysis.
 
 Information Sharding is built upon ideas from cryptography, erasure
 coding, distributed computing, and git. I believe five aspects of
 Information Sharding are unique to this ShatteredGlass specification:
 
-1.  The definition of “*Information Sharding*”.
+1.  The definition of *Information Sharding*.
 
 2.  The definition of a *Universal Information Identifier*.
 
@@ -59,23 +59,25 @@ Information Sharding are unique to this ShatteredGlass specification:
     files such as Portable Network Graphic (PNG) files, for storage on
     cloud-based image storage services such as Google Photos or
     Facebook. I have successfully stored 100's of GB of data on
-    a free Google Photos account.
+    a (15GB) free Google Photos account.
 
 I have created a version of ShatteredGlass written entirely in
 Javascript [6]. This implies that ShatteredGlass can run on any
-client computer that supports web technology (including Tails [7] and
-secure boot tokens [8]). The system can store shards either on a standard
+client computer that supports web technology including Tails [7] and
+secure boot tokens such as the USB Armory from Inverse Path [8]).
+
+The system can store shards either on a standard
 local file system, on a Hadoop [9] storage cluster, in an email
 system such as Gmail, on a cloud storage system such as Amazon S3 or
-Google Cloud, or on a photo sharing cloud service by masquerading
-the shards as well-formed PNG files (Google Photos). Private information
-publicly hiding in plain sight.
+Google Cloud, on a photo sharing cloud service by masquerading
+the shards as well-formed PNG files (Google Photos), or even here on
+GitHub. Private information publicly hiding in plain sight.
 
 Source Code
 ===========
 
 The current source code is sharded in the Shards directory and a
-PNG image file version sharded in the ShardsPNG directory.
+duplicative PNG image file version sharded in the ShardsPNG directory.
 
 The source code will remain sharded until the ShatteredGlass specification
 is completed and uploaded to this GitHub project.
