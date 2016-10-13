@@ -13,15 +13,15 @@ Container*. No central authority is required to manage namespaces,
 information owners, and information sharing. *Information Sharding* has
 the following properties:
 
-1.  *Universal Information Identifiers* (UII, pronounced yōō'ē)
-    provide unique information identity without the need for a central authority.
+1.  The *Universal Information Identifier* (UII, pronounced yōō'ē)
+    provides unique information identity without the need for a central authority.
 
 2.  Information is shattered (sharded) into one or more *Shards*.
     Authenticated encryption ensures shard privacy and integrity.
 
 3.  *Information Dispersal Algorithms* ([Erasure Coding](http://en.wikipedia.org/wiki/Erasure_code))
     are optionally used for [data redundancy](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction)
-    that provides resistance to shard loss and enables *Information* *Horse Racing* and *Information
+    to provide resistance to shard loss and enable *Information* *Horse Racing* and *Information
     Quorums*.
 
 4.  Cryptographic primitives are based on sponge functions, specifically
@@ -104,4 +104,5 @@ Footnotes
 
 [1] I adopted hash-based signatures because of their resistance to Quantum Computing attacks.
 
-[2] Hopefully leaving Shard Server operators legally immune to data sharing prosecution.
+[2] Shard Server operators will hopefully be legally immune to data sharing prosecution
+from entities such as the MPAA.
