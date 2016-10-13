@@ -3,10 +3,18 @@
   "description": "Information Sharding for Universal Information Storage utilizing Universal Information Identifiers",
   "version": "0.1.0",
   "keywords": [],
-  "author": "Daniel Lanovaz",
-  "license": "",
+  "author": {
+    "name": "Daniel Lanovaz",
+    "email": "daniel@lanovaz.org",
+    "url": "http://daniel.lanovaz.org"
+  },
+  "bugs": {
+    "url" : "https://github.com/Lanovaz/shattered-glass/issues"
+  },
+  "license": "CC-BY-NC-ND-4.0",
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git://github.com/Lanovaz/shattered-glass.git"
   },
   "dependencies": {
     "aes-gcm-stream": "^2.1.0",
@@ -15,5 +23,14 @@
     "minimist": "^1.2.0",
     "pngjs": "^3.0.0",
     "webhdfs": "^1.1.0"
-  }
+  },
+  "keywords": [
+    "information sharding",
+    "sharding",
+    "shard",
+    "erasure code",
+    "erasure coding",
+    "universal",
+    "UII"
+  ]
 }
