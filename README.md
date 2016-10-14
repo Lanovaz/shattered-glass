@@ -62,7 +62,7 @@ Information Sharding are unique to this ShatteredGlass specification:
     Facebook. ShatteredGlass has successfully stored 100's of GB of data without
     additional cost on a 15GB-limit free Google Photos account.
 
-ShatteredGlass is written entirely in Javascript running on [Node.js](https://nodejs.org).
+ShatteredGlass is written entirely in Javascript running on [Node.js](https://nodejs.org)
 and can run on any client computer that supports web technology
 including [Tails](https://tails.boum.org) and secure boot tokens such as
 the [USB Armory from Inverse Path](https://inversepath.com/usbarmory).
