@@ -40,7 +40,7 @@ the following properties:
     analysis and traffic analysis.
 
 Information Sharding is standing on the shoulders of concepts in cryptography,
-erasure coding, distributed computing, and git. I believe five aspects of
+erasure coding, distributed computing, and git. Five aspects of
 Information Sharding are unique to this ShatteredGlass specification:
 
 1.  The definition of *Information Sharding*.
