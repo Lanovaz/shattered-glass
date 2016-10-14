@@ -58,9 +58,10 @@ Information Sharding are unique to this ShatteredGlass specification:
 
 5.  The ability to optionally transform shards, for example, into image
     files such as Portable Network Graphic (PNG) files, for storage on
-    cloud-based image storage services such as Google Photos or
-    Facebook. ShatteredGlass has successfully stored 100's of GB of data without
-    additional cost in a single 15GB-limit free Google Photos account.
+    cloud-based image storage services such as [Google Photos](https://photos.google.com)
+    or [Facebook](http://www.facebook.com). ShatteredGlass has successfully stored
+    100's of GB of data without additional cost in a single 15GB-limit free
+    Google Photos account.
 
 ShatteredGlass is written entirely in Javascript running on [Node.js](https://nodejs.org)
 and can run on any client computer that supports web technology
