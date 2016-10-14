@@ -21,8 +21,8 @@ the following properties:
 
 3.  *Information Dispersal Algorithms* ([Erasure Coding](http://en.wikipedia.org/wiki/Erasure_code))
     are used for [data redundancy](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction)
-    to provide resistance to shard loss and enable *Information* *Horse Racing* and *Information
-    Quorums*.
+    to provide resistance to shard loss and enable an *Information* *Horse Race* and an *Information
+    Quorum*.
 
 4.  Cryptographic primitives are based on sponge functions, specifically
     the [Keccak](http://keccak.noekeon.org/) family
