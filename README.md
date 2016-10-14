@@ -20,7 +20,7 @@ the following properties:
     Authenticated encryption ensures shard privacy and integrity.
 
 3.  *Information Dispersal Algorithms* ([Erasure Coding](http://en.wikipedia.org/wiki/Erasure_code))
-    are optionally used for [data redundancy](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction)
+    are used for [data redundancy](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction)
     to provide resistance to shard loss and enable *Information* *Horse Racing* and *Information
     Quorums*.
 
