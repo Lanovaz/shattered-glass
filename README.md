@@ -73,7 +73,7 @@ system such as Gmail, in a cloud storage system such as Amazon S3 or
 Google Cloud, in a photo sharing cloud service by masquerading
 the shards as well-formed PNG files (Google Photos), or even in GitHub.
 
-ShatteredGlass enables information to publicly hiding in plain sight.
+ShatteredGlass enables information to publicly hide in plain sight.
 
 Source Code
 ===========
