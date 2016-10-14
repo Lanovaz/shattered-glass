@@ -69,9 +69,10 @@ the [USB Armory from Inverse Path](https://inversepath.com/usbarmory).
 
 ShatteredGlass can store shards either in a standard
 local file system, in a [Hadoop](http://hadoop.apache.org) storage cluster, in an email
-system such as Gmail, in a cloud storage system such as Amazon S3 or
-Google Cloud, in a photo sharing cloud service by masquerading
-the shards as well-formed PNG files (Google Photos), or even in GitHub.
+system such as [Gmail](http://gmail.com), in a cloud storage system such as
+[Amazon S3](https://aws.amazon.com/s3) or [Google Cloud](https://cloud.google.com/storage),
+in a photo sharing cloud service such as Google Photos by masquerading
+the shards as well-formed PNG files, or even in [GitHub](https://github.com/Lanovaz/shattered-glass).
 
 ShatteredGlass enables information to publicly hide in plain sight.
 
