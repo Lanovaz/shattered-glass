@@ -27,7 +27,8 @@ the following properties:
 4.  Cryptographic primitives are based on sponge functions, specifically
     the [Keccak](http://keccak.noekeon.org/) family
     of sponge functions used for [permutation-based hashing](https://www.nist.gov/node/555116?pub_id=919061),
-    message authentication, authenticated encryption, and hash-based signatures [1].
+    message authentication, [authenticated encryption](http://keyak.noekeon.org/),
+    and [hash-based signatures](http://csrc.nist.gov/groups/ST/post-quantum-2015/papers/session5-hulsing-paper.pdf) [1].
 
 5.  *Shard Servers* are unaware of shard contents, are unaware of shard
     interrelationships, and are unaware of shard ownership. No knowledge
@@ -38,8 +39,8 @@ the following properties:
     networks such as the [Tor network](https://www.torproject.org), is resistant to file-size
     analysis and traffic analysis.
 
-Information Sharding is built upon ideas from cryptography, erasure
-coding, distributed computing, and git. I believe five aspects of
+Information Sharding is standing on the shoulders of concepts in cryptography,
+erasure coding, distributed computing, and git. I believe five aspects of
 Information Sharding are unique to this ShatteredGlass specification:
 
 1.  The definition of *Information Sharding*.
@@ -61,29 +62,28 @@ Information Sharding are unique to this ShatteredGlass specification:
     Facebook. I have successfully stored 100's of GB of data without
     additional cost on a 15GB-limit free Google Photos account.
 
-I have created a version of ShatteredGlass written entirely in
-Javascript running on [Node.js](https://nodejs.org). This implies that
-ShatteredGlass can run on any client computer that supports web technology
+ShatteredGlass is written entirely in Javascript running on [Node.js](https://nodejs.org).
+and can run on any client computer that supports web technology
 including [Tails](https://tails.boum.org) and secure boot tokens such as
 the [USB Armory from Inverse Path](https://inversepath.com/usbarmory).
 
-The system can store shards either on a standard
-local file system, on a [Hadoop](http://hadoop.apache.org) storage cluster, in an email
-system such as Gmail, on a cloud storage system such as Amazon S3 or
-Google Cloud, on a photo sharing cloud service by masquerading
-the shards as well-formed PNG files (Google Photos), or even here on
-GitHub.
+ShatteredGlass can store shards either in a standard
+local file system, in a [Hadoop](http://hadoop.apache.org) storage cluster, in an email
+system such as Gmail, in a cloud storage system such as Amazon S3 or
+Google Cloud, in a photo sharing cloud service by masquerading
+the shards as well-formed PNG files (Google Photos), or even in GitHub.
 
-ShatteredGlass: anonymous and private information publicly hiding in plain sight.
+ShatteredGlass enables information to publicly hiding in plain sight.
 
 Source Code
 ===========
 
-The current source code is sharded in the Shards directory and a
+ShatteredGlass source code is sharded into the Shards directory and a
 duplicative PNG image version sharded in the ShardsPNG directory.
 
-The source code will remain sharded until the ShatteredGlass specification
-is completed and uploaded to this GitHub project.
+ShatteredGlass source code will remain sharded until specification review
+is completed and an initial version is uploaded to this GitHub project.
+At that time the key to unlock the shards may be uploaded to GitHub.
 
 Shards
 ------
