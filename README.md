@@ -8,7 +8,7 @@ Overview
 ========
 
 ShatteredGlass uses *Information Sharding* to shatter information bit
-strings into Shards for persistence in a *Universal Information Storage
+strings into *Shards* for persistence in a *Universal Information Storage
 Container*. No central authority is required to manage namespaces,
 information owners, and information sharing. *Information Sharding* has
 the following properties:
@@ -39,8 +39,8 @@ the following properties:
     networks such as the [Tor network](https://www.torproject.org), is resistant to file-size
     analysis and traffic analysis.
 
-Information Sharding is standing on the shoulders of concepts in cryptography,
-erasure coding, distributed computing, and git. Five aspects of
+Information Sharding is standing on the shoulders of concepts in Cryptography,
+Erasure Coding, Distributed Computing, and Git. Five aspects of
 Information Sharding are unique to this ShatteredGlass specification:
 
 1.  The definition of *Information Sharding*.
@@ -104,7 +104,7 @@ Stored UII[956B40A6A1F9B94D23297A66F13A0F238E915DDA6C31A4EFFB90689DA39C3E39]
 Footnotes
 =========
 
-[1] I adopted hash-based signatures because of their resistance to Quantum Computing attacks.
+[1] Hash-based signatures are used because of their resistance to Quantum Computing attacks.
 
 [2] Shard Server operators will hopefully be legally immune to data sharing prosecution
 from entities such as the MPAA.
