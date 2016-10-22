@@ -60,7 +60,7 @@ Information Sharding are unique to this ShatteredGlass specification:
     files such as Portable Network Graphic (PNG) files, for storage on
     cloud-based image storage services such as [Google Photos](https://photos.google.com)
     or [Facebook](http://www.facebook.com). ShatteredGlass has successfully stored
-    100's of GB of data without additional cost in a single 15GB-limit free
+    hundreds of GB of data without additional cost in a single 15GB-limit free
     Google Photos account.
 
 ShatteredGlass is written entirely in Javascript running on [Node.js](https://nodejs.org)
@@ -106,3 +106,12 @@ Footnotes
 
 [2] Shard Server operators will hopefully be legally immune to data sharing prosecution
 from entities such as the MPAA.
+
+License
+=======
+
+Copyright (c) 2016 Daniel Lanovaz. All Rights Reserved.
+
+![Creative Commons License](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/).
