@@ -75,7 +75,7 @@ system such as [Gmail](http://gmail.com), in a cloud storage system such as
 in a photo sharing cloud service such as [Google Photos](https://photos.google.com) by masquerading
 the shards as well-formed PNG files, or even in [GitHub](https://github.com/Lanovaz/shattered-glass).
 
-ShatteredGlass enables information to publicly hide in plain sight.
+ShatteredGlass enables private information to publicly hide in plain sight.
 
 Source Code
 ===========
